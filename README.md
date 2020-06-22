@@ -1,5 +1,5 @@
 # ros-sharp-eventbroker
-This is an eventbroker that allows Unity components to publish and subscribe to and from ROS via ROS#.
+This is an eventbroker that allows Unity components to publish and subscribe strings to and from ROS via ROS#.
 To subscribe a component has to implement the IEventSubscriber interface.
 
 How to publish a message:
