@@ -10,7 +10,7 @@ eventBroker.PublishToTopic("topic", "message");
 
 How to subscribe to a message:
 ```C#
-public class UnityComponent : ISubscriber {
+public class UnityComponent : IEventSubscriber {
 
 ...
 
