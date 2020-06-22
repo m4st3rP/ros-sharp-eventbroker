@@ -15,7 +15,6 @@ public class UnityComponent : IEventSubscriber {
 ...
 
 var eventBroker = EventBroker.GetEventBroker();
-eventBroker.PublishToTopic("topic", "message");
 eventBroker.SubscribeToTopicAndMessage("topic", "message", this);
 
 ...
