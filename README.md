@@ -24,7 +24,7 @@ eventBroker.SubscribeToTopicAndMessage("topic", "message", this);
 
 ...
 
-public void onSubscribedMessage(string topic, string msg) {
+public void OnSubscribedMessage(string topic, string msg) {
     if (topic.Equals("topic")) {
         if (msg.Equals("message")) {
             doThing();
